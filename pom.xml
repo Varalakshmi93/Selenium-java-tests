@@ -36,17 +36,7 @@
     <artifactId>webdrivermanager</artifactId>
     <version>5.9.2</version>
 </dependency>
-  	<dependency>
-  		<groupId>AetramTradesIBSV</groupId>
-  		<artifactId>AetramTradesIBSV</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>ATMSmokeTest</groupId>
-  		<artifactId>ATMSmokeTest</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<!-- Log4j2 API -->
+  	  	<!-- Log4j2 API -->
     <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-api</artifactId>

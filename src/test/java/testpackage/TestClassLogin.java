@@ -20,7 +20,7 @@ public class TestClassLogin {
 driver.findElement(By.id("btnLoginCheck")).click();
 try { Thread.sleep(3000); } catch (InterruptedException e) {}
 
-// Assertion: check if redirected to dashboard or welcome message is shown test
+// Assertion: check if redirected to dashboard or welcome message is shown testtest
 String expectedUrl = "https://user.aetramtrades.mu/dashboard";
 String actualUrl = driver.getCurrentUrl();
 Assert.assertEquals(actualUrl, expectedUrl, "Login failed or incorrect redirection.");
